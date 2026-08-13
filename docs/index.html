@@ -1,8 +1,404 @@
-<body>
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="FFFF: Fatal Five Finger Fillet is a first-person roguelite that turns Five Finger Fillet into a physical keyboard game. Coming to Windows PC on Steam in October 2026."
+    >
+    <meta name="theme-color" content="#050607">
+    <title>FFFF: Fatal Five Finger Fillet — Official Site</title>
+    <link rel="icon" type="image/png" href="./Assets/01_Logos/Character_Icon.png">
+    <link rel="stylesheet" href="./styles.css">
+    <script>
+      document.documentElement.classList.replace('no-js', 'js');
+    </script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <h1>Metto Games公式</h1>
-    <h2>制作したゲーム紹介</h2>
-    <img src="./images/Parry_Shooter_Icon.png">
-    <p><a href=”https://apps.apple.com/us/app/id6446252057”>パリィシューターのストアページ</a></p>
+    <header class="site-header" data-site-header>
+      <div class="site-header__inner shell">
+        <a class="site-brand" href="#top" aria-label="FFFF: Fatal Five Finger Fillet — home">
+          <span class="site-brand__mark" aria-hidden="true">FFFF</span>
+          <span class="site-brand__name">Fatal Five Finger Fillet</span>
+        </a>
 
-</body>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          data-menu-toggle
+        >
+          <span class="menu-toggle__label">Menu</span>
+          <span class="menu-toggle__icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+
+        <nav class="site-nav" id="site-navigation" aria-label="Primary navigation" data-site-nav>
+          <a href="#game">The game</a>
+          <a href="#trailer">Trailer</a>
+          <a href="#community">Community / Press</a>
+          <a href="#gallery">Gallery</a>
+          <a class="site-nav__steam" href="https://store.steampowered.com/app/2905730" target="_blank" rel="noopener noreferrer">
+            Steam <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <picture class="hero__media" aria-hidden="true">
+          <img
+            src="./Assets/02_KeyArt/Main.png"
+            width="2547"
+            height="1433"
+            alt=""
+            fetchpriority="high"
+          >
+        </picture>
+
+        <div class="hero__scrim" aria-hidden="true"></div>
+        <div class="hero__content shell">
+          <div class="hero__copy is-visible" data-reveal>
+            <p class="eyebrow"><span></span>A physical keyboard roguelite</p>
+            <h1 class="sr-only" id="hero-title">FFFF: Fatal Five Finger Fillet</h1>
+            <div class="hero__logo-frame" aria-hidden="true">
+              <img src="./Assets/01_Logos/FFFF_Logo.png" width="1800" height="1800" alt="">
+            </div>
+            <p class="hero__tagline"><span>Put your fingers on the keyboard.</span><br><strong>Don't lose them.</strong></p>
+            <p class="hero__summary">
+              Place four real fingers on the keyboard. Move an on-screen knife between them. Build scoring combinations with rings and items.
+            </p>
+
+            <div class="hero__actions">
+              <a class="button button--primary" href="https://store.steampowered.com/app/2905730" target="_blank" rel="noopener noreferrer">
+                <span>View on Steam</span><span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span>
+              </a>
+              <a class="button button--ghost" href="#trailer"><span aria-hidden="true">▶</span> Watch trailer</a>
+            </div>
+
+            <ul class="hero__facts" aria-label="Game summary">
+              <li>Windows PC</li>
+              <li>Single-player</li>
+              <li>October 2026</li>
+            </ul>
+
+            <!-- PLAYTEST NOTICE START — delete this entire block when the playtest ends. -->
+            <aside class="playtest-banner" aria-label="Current Steam Playtest information">
+              <span class="playtest-banner__label">Free Steam Playtest</span>
+              <strong>Available until August 19, 2026</strong>
+              <span class="playtest-banner__meta">Approx. playtime: 20–40 minutes</span>
+            </aside>
+            <!-- PLAYTEST NOTICE END -->
+          </div>
+        </div>
+
+        <a class="hero__scroll" href="#game" aria-label="Continue to game overview">
+          <span>Scroll to play</span><i aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <section class="intro section" id="game" aria-labelledby="game-title">
+        <div class="shell">
+          <div class="section-heading section-heading--split" data-reveal>
+            <div>
+              <p class="eyebrow"><span></span>The game</p>
+              <h2 id="game-title">Five Finger Fillet.<br><em>On your keyboard.</em></h2>
+            </div>
+            <p class="section-heading__lead">
+              FFFF: Fatal Five Finger Fillet is a first-person roguelite that turns Five Finger Fillet into a physical keyboard game.
+            </p>
+          </div>
+
+          <div class="how-grid">
+            <figure class="media-card media-card--large" data-reveal>
+              <img
+                src="./Assets/03_Screenshots/FFFF_Screenshot_07.jpg"
+                width="2560"
+                height="1440"
+                alt="A first-person game view with two hands on a table and a glowing knife between them at the beginning of a run"
+                loading="lazy"
+              >
+              <figcaption><span>01</span> Your real fingers become your in-game fingers.</figcaption>
+            </figure>
+
+            <ol class="how-list" aria-label="How it plays">
+              <li data-reveal>
+                <span class="how-list__number">01</span>
+                <div>
+                  <h3>Place four fingers</h3>
+                  <p>Place four real fingers directly on the keyboard, where they correspond to the fingers of the in-game hand.</p>
+                </div>
+              </li>
+              <li data-reveal>
+                <span class="how-list__number">02</span>
+                <div>
+                  <h3>Move the knife</h3>
+                  <p>Control an on-screen knife between your fingers, balancing speed and accuracy as the pressure builds.</p>
+                </div>
+              </li>
+              <li data-reveal>
+                <span class="how-list__number">03</span>
+                <div>
+                  <h3>Build the score</h3>
+                  <p>Combine rings and items to change how you chase higher scores while a rotating blade closes in.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="community section section--ink" id="community" aria-labelledby="community-title">
+        <div class="community__glow" aria-hidden="true"></div>
+        <div class="shell">
+          <div class="section-heading section-heading--split" data-reveal>
+            <div>
+              <p class="eyebrow"><span></span>Official links</p>
+              <h2 id="community-title">Community<br><em>&amp; press.</em></h2>
+            </div>
+            <p class="community__lead">Discord · X · Press Kit · Email</p>
+          </div>
+
+          <div class="community-grid">
+            <a class="community-card community-card--primary" href="https://discord.gg/FNDWWy5d8W" target="_blank" rel="noopener noreferrer" data-reveal>
+              <span class="community-card__label">Official</span>
+              <img src="./Assets/Logos/Discord-Symbol-White.png" width="528" height="400" alt="" loading="lazy">
+              <strong>Discord</strong>
+              <span class="community-card__link">discord.gg/FNDWWy5d8W <b aria-hidden="true">↗</b><span class="sr-only"> (opens in a new tab)</span></span>
+            </a>
+
+            <a class="community-card community-card--primary" href="https://x.com/GENMAN0731700" target="_blank" rel="noopener noreferrer" data-reveal>
+              <span class="community-card__label">Official</span>
+              <img src="./Assets/Logos/X-logo-white.png" width="2400" height="2453" alt="" loading="lazy">
+              <strong>X</strong>
+              <span class="community-card__link">@GENMAN0731700 <b aria-hidden="true">↗</b><span class="sr-only"> (opens in a new tab)</span></span>
+            </a>
+
+            <a class="community-card community-card--press" href="https://drive.google.com/drive/u/0/folders/11Gg4CQXR4QYR6BFq9qX-Zm8r5zES4rhz" target="_blank" rel="noopener noreferrer" data-reveal>
+              <span class="community-card__label">For media</span>
+              <strong>Press Kit</strong>
+              <span class="community-card__link">Open press kit <b aria-hidden="true">↗</b><span class="sr-only"> (opens in a new tab)</span></span>
+            </a>
+
+            <address class="community-card community-card--email" data-reveal>
+              <span class="community-card__label">Email</span>
+              <a href="mailto:genman.game@gmail.com">genman.game@gmail.com</a>
+            </address>
+          </div>
+        </div>
+      </section>
+
+      <section class="trailer section section--ink" id="trailer" aria-labelledby="trailer-title">
+        <div class="shell">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow"><span></span>Official video</p>
+            <h2 id="trailer-title">See the pressure build.</h2>
+          </div>
+
+          <div class="featured-video" data-reveal>
+            <div class="featured-video__frame">
+              <video
+                controls
+                playsinline
+                preload="metadata"
+                poster="./Assets/03_Screenshots/FFFF_Screenshot_01.jpg"
+                aria-label="Official FFFF gameplay trailer"
+              >
+                <source src="./Assets/05_Video/PV_Movie_01.mp4" type="video/mp4">
+                Your browser does not support the video element.
+              </video>
+            </div>
+            <div class="featured-video__meta">
+              <div>
+                <span class="featured-video__index">01 / 02</span>
+                <h3>Official gameplay trailer</h3>
+              </div>
+              <span>00:30</span>
+            </div>
+          </div>
+
+          <details class="secondary-trailer" data-reveal>
+            <summary>
+              <span><b>02 / 02</b> Watch the first trailer</span>
+              <span class="secondary-trailer__duration">00:42</span>
+            </summary>
+            <div class="secondary-trailer__video">
+              <video
+                controls
+                playsinline
+                preload="none"
+                poster="./Assets/02_KeyArt/MainCupsul.png"
+                aria-label="First FFFF gameplay trailer"
+              >
+                <source src="./Assets/05_Video/FFFFFirstTrailer%20.mp4" type="video/mp4">
+                Your browser does not support the video element.
+              </video>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="builds section" aria-labelledby="builds-title">
+        <div class="shell builds__grid">
+          <div class="builds__copy" data-reveal>
+            <p class="eyebrow"><span></span>Roguelite builds</p>
+            <h2 id="builds-title">Build scoring combinations.</h2>
+            <p class="builds__lead">
+              Rings and items modify scoring. Combine their effects to create different strategies and high-scoring runs.
+            </p>
+            <ul class="signal-list">
+              <li><span>01</span>Collect rings and items</li>
+              <li><span>02</span>Combine their effects</li>
+              <li><span>03</span>Chase a higher score</li>
+            </ul>
+          </div>
+
+          <div class="builds__visual" data-reveal>
+            <figure class="builds__image builds__image--back">
+              <img
+                src="./Assets/03_Screenshots/FFFF_Screenshot_02.jpg"
+                width="2560"
+                height="1440"
+                alt="A selection screen with five priced items and control keys shown on the in-game fingers"
+                loading="lazy"
+              >
+            </figure>
+            <figure class="builds__image builds__image--front">
+              <img
+                src="./Assets/03_Screenshots/FFFF_Screenshot_03.jpg"
+                width="2560"
+                height="1440"
+                alt="A ring-covered hand scoring points as the knife moves between its fingers"
+                loading="lazy"
+              >
+              <figcaption>Combine effects. Chase higher scores.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section section--ink" id="gallery" aria-labelledby="gallery-title">
+        <div class="shell">
+          <div class="section-heading section-heading--split" data-reveal>
+            <div>
+              <p class="eyebrow"><span></span>Screenshots</p>
+              <h2 id="gallery-title">Inside the game.</h2>
+            </div>
+            <p class="section-heading__aside">Select an image to view it full screen.</p>
+          </div>
+
+          <div class="gallery__grid" data-gallery>
+            <button
+              class="gallery__item gallery__item--wide"
+              type="button"
+              data-full="./Assets/03_Screenshots/FFFF_Screenshot_01.jpg"
+              data-caption="The knife moves between the fingers while scoring effects fill the table."
+              aria-label="Open screenshot: scoring during a Five Finger Fillet round"
+              data-reveal
+            >
+              <img src="./Assets/03_Screenshots/FFFF_Screenshot_01.jpg" width="2560" height="1440" alt="Scoring effects appear as the knife moves between the in-game fingers" loading="lazy">
+              <span>Score under pressure <i aria-hidden="true">↗</i></span>
+            </button>
+            <button
+              class="gallery__item"
+              type="button"
+              data-full="./Assets/03_Screenshots/FFFF_Screenshot_05.jpg"
+              data-caption="A mistake costs a finger, but the run continues."
+              aria-label="Open screenshot: continuing a run after losing a finger"
+              data-reveal
+            >
+              <img src="./Assets/03_Screenshots/FFFF_Screenshot_05.jpg" width="2560" height="1440" alt="A damaged in-game hand continues scoring beside the knife" loading="lazy">
+              <span>Fewer lives remain <i aria-hidden="true">↗</i></span>
+            </button>
+            <button
+              class="gallery__item"
+              type="button"
+              data-full="./Assets/03_Screenshots/FFFF_Screenshot_08.jpg"
+              data-caption="Rings and items alter the scoring possibilities of a run."
+              aria-label="Open screenshot: a hand equipped with multiple rings and items"
+              data-reveal
+            >
+              <img src="./Assets/03_Screenshots/FFFF_Screenshot_08.jpg" width="2560" height="1440" alt="A hand wearing many rings scores while the knife moves between its fingers" loading="lazy">
+              <span>Build combinations <i aria-hidden="true">↗</i></span>
+            </button>
+            <button
+              class="gallery__item gallery__item--wide"
+              type="button"
+              data-full="./Assets/03_Screenshots/FFFF_Screenshot_06.jpg"
+              data-caption="A lion finger puppet waits across the table."
+              aria-label="Open screenshot: a lion finger puppet under spotlights"
+              data-reveal
+            >
+              <img src="./Assets/03_Screenshots/FFFF_Screenshot_06.jpg" width="2560" height="1440" alt="A button-eyed lion finger puppet stands beneath crossing spotlights" loading="lazy">
+              <span>Across the table <i aria-hidden="true">↗</i></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="steam section" id="steam" aria-labelledby="steam-title">
+        <div class="shell steam__panel" data-reveal>
+          <div class="steam__art">
+              <img
+                src="./Assets/02_KeyArt/LibraryCupsul.png"
+              width="600"
+              height="900"
+              alt="FFFF key art with the official logo above a button-eyed lion finger puppet"
+              loading="lazy"
+              >
+          </div>
+
+          <div class="steam__content">
+            <p class="eyebrow"><span></span>Coming to Steam</p>
+            <h2 id="steam-title">Put your fingers on the keyboard. Don't lose them.</h2>
+
+            <dl class="factsheet">
+              <div><dt>Release</dt><dd>October 2026</dd></div>
+              <div><dt>Platform</dt><dd>Windows PC (Steam)</dd></div>
+              <div><dt>Players</dt><dd>Single-player</dd></div>
+              <div><dt>Input</dt><dd>Physical keyboard required</dd></div>
+              <div><dt>Genre</dt><dd>Roguelike, Horror</dd></div>
+              <div><dt>Price</dt><dd>TBA</dd></div>
+            </dl>
+
+            <a class="button button--primary button--large" href="https://store.steampowered.com/app/2905730" target="_blank" rel="noopener noreferrer">
+              <span>Open the Steam page</span><span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell site-footer__top">
+        <div class="site-footer__brand">
+          <img src="./Assets/01_Logos/GenmanGames_Logo.png" width="1254" height="1254" alt="Genman Games" loading="lazy">
+          <p>Developed and published by Genman Games.</p>
+        </div>
+        <a class="site-footer__steam" href="https://store.steampowered.com/app/2905730" target="_blank" rel="noopener noreferrer">View on Steam <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+      </div>
+      <div class="shell site-footer__bottom">
+        <p>FFFF: Fatal Five Finger Fillet · Genman Games</p>
+        <nav class="site-footer__legal" aria-label="Legal and utility links">
+          <a href="./privacy-policy.html">Privacy Policy</a>
+          <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </nav>
+      </div>
+    </footer>
+
+    <dialog class="lightbox" data-lightbox aria-labelledby="lightbox-caption">
+      <button class="lightbox__close" type="button" aria-label="Close image viewer" data-lightbox-close>Close <span aria-hidden="true">×</span></button>
+      <button class="lightbox__nav lightbox__nav--previous" type="button" aria-label="Previous screenshot" data-lightbox-previous><span aria-hidden="true">←</span></button>
+      <figure>
+        <img src="./Assets/03_Screenshots/FFFF_Screenshot_01.jpg" alt="" width="2560" height="1440" data-lightbox-image>
+        <figcaption id="lightbox-caption" aria-live="polite" data-lightbox-caption></figcaption>
+      </figure>
+      <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next screenshot" data-lightbox-next><span aria-hidden="true">→</span></button>
+    </dialog>
+  </body>
+</html>

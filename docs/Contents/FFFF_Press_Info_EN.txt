@@ -1,0 +1,74 @@
+## FACTSHEET
+
+Title
+FFFF: Fatal Five Finger Fillet
+
+Developer
+Genman Games
+
+Publisher
+Genman Games
+
+Platform
+Windows PC (Steam)
+
+Release
+October 2026
+
+Genre
+Roguelike,Horror
+
+Players
+Single-player
+
+Input
+Physical keyboard required
+
+Price
+TBA
+
+Email
+genman.game@gmail.com
+
+Steam
+https://store.steampowered.com/app/2905730
+
+X
+https://x.com/GENMAN0731700
+
+Discord
+https://discord.gg/FNDWWy5d8W
+
+
+## Current Playtest
+Free Steam Playtest available until August 19, 2026
+Approx. playtime: 20–40 minutes
+
+
+## TAGLINE
+Put your fingers on the keyboard.
+Don't lose them.
+
+
+## SHORT DESCRIPTION
+FFFF: Fatal Five Finger Fillet is a first-person roguelite that turns Five Finger Fillet into a physical keyboard game. 
+Players place four real fingers on the keyboard and stab between them with an on-screen knife, then build scoring combinations with rings and items.
+
+
+## LONG DESCRIPTION
+FFFF: Fatal Five Finger Fillet is a first-person roguelite built around a physical keyboard version of Five Finger Fillet. Players place four fingers directly on the keyboard, where they correspond to the fingers of the in-game hand, and move an on-screen knife between them to build their score.
+The challenge is balancing speed against accuracy. Losing fingers reduces the player's margin for error, while an approaching rotating blade creates additional time pressure. Rings and items modify scoring and can be combined to create different strategies and high-scoring runs.
+The result is a score-driven roguelite built around the tension between the virtual knife on screen and the player's real fingers resting on the keyboard.
+
+
+## KEY FEATURES
+- PHYSICAL FOUR-FINGER CONTROLS
+Place four real fingers on your keyboard, where they become your in-game fingers — and your lives.
+
+- FIVE FINGER FILLET IN FIRST PERSON
+Control an on-screen knife between your fingers, balancing speed and accuracy as the pressure builds.
+- ROGUELITE BUILDS
+Collect rings and items, combine their effects, and build synergies that change how you chase higher scores.
+
+- EVERY FINGER COUNTS
+Mistakes can cost you a finger during a run, forcing you to keep playing with fewer lives remaining.
