@@ -56,7 +56,7 @@
 | パス | 仕様・内容 | サイトでの使用方針 |
 |---|---|---|
 | `Assets/05_Video/FFFFFirstTrailer .mp4` | 41.877秒、1920×1080、30fps、H.264/AAC。操作、丸ノコ、リング、アイテム、プレイ、ロゴ | 折りたたみ式のFirst Trailerとして使用。ファイル名の拡張子直前に半角スペースあり |
-| `Assets/05_Video/PV_Movie_01.mp4` | 29.717秒、1920×1080、29.97fps、H.264/AAC。操作、加点、アイテム選択、高スコア、ロゴ | 短く直接的な主トレーラーとして使用 |
+| `Assets/05_Video/PV_Movie_01.mp4` | 29.717秒、1920×1080、29.97fps、H.264/AAC。操作、加点、アイテム選択、高スコア、ロゴ | 主トレーラーはYouTube埋め込み（<https://youtu.be/1EQ7aHp_PqQ>）に置き換えたため、現在サイト本体では未使用 |
 
 両MP4は全編デコード正常、Web配信向けfast-start、ブラウザ互換性の高いH.264/AAC。字幕トラックはない。音付き自動再生は行わず、`controls`、`playsinline`、`poster` を指定した。
 
@@ -65,7 +65,8 @@
 - 正式タイトル: `FFFF: Fatal Five Finger Fillet`
 - Developer / Publisher: `Genman Games`
 - Platform: `Windows PC (Steam)`
-- Release: `October 2026`
+- Demo: `September 30, 2026`
+- Release: `November 5, 2026`
 - Genre: `Roguelike,Horror`
 - Players: `Single-player`
 - Input: `Physical keyboard required`
@@ -75,8 +76,6 @@
 - Discord: <https://discord.gg/FNDWWy5d8W>
 - Email: <genman.game@gmail.com>
 - Press Kit（ユーザー指定の配布先）: <https://drive.google.com/drive/u/0/folders/11Gg4CQXR4QYR6BFq9qX-Zm8r5zES4rhz>
-- Free Steam Playtest available until August 19, 2026
-- Approx. playtime: 20–40 minutes
 - 一人称視点のrogueliteで、Five Finger Filletを物理キーボード操作にしたゲーム
 - 4本の実際の指をキーボードに置き、ゲーム内の指と対応させる
 - 画面上のナイフを指の間に動かし、速さと正確さを両立してスコアを伸ばす
@@ -88,10 +87,8 @@ Steamページは補助資料として照合した。Steam上では発売時期�
 
 ## 5. 不足・未確定情報
 
-- 2026年10月内の正確な発売日と時刻
+- 発売日の正確な時刻
 - 最終価格
-- Playtestの開始日と参加承認方式
-- 20–40分が1ランの時間かPlaytest全体の目安か
 - 具体的な操作キー
 - スコア計算式、リング／アイテムの種類と総数
 - レビュー、評価スコア、受賞歴

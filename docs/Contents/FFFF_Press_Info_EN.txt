@@ -12,8 +12,11 @@ Genman Games
 Platform
 Windows PC (Steam)
 
+Demo
+September 30, 2026
+
 Release
-October 2026
+November 5, 2026
 
 Genre
 Roguelike,Horror
@@ -39,10 +42,9 @@ https://x.com/GENMAN0731700
 Discord
 https://discord.gg/FNDWWy5d8W
 
-
-## Current Playtest
-Free Steam Playtest available until August 19, 2026
-Approx. playtime: 20–40 minutes
+Trailer
+https://genman-games.com/trailer
+https://youtu.be/1EQ7aHp_PqQ
 
 
 ## TAGLINE
