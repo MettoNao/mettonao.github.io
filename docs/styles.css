@@ -493,13 +493,12 @@ summary {
   content: "";
 }
 
-.playtest-banner {
+.release-banner {
   position: relative;
   display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  gap: 0.2rem 1.25rem;
-  width: min(100%, 38rem);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.2rem 1.4rem;
+  width: min(100%, 44rem);
   margin-top: 1.7rem;
   padding: 1.25rem 1.45rem 1.3rem;
   border: 1px solid rgba(255, 255, 255, 0.32);
@@ -509,15 +508,17 @@ summary {
   backdrop-filter: blur(12px);
 }
 
-.playtest-banner span,
-.playtest-banner strong {
+.release-banner__item--full {
+  padding-left: 1.25rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.release-banner span,
+.release-banner strong {
   display: block;
 }
 
-.playtest-banner__label {
-  grid-row: 1 / span 2;
-  padding-right: 1.25rem;
-  border-right: 1px solid rgba(255, 255, 255, 0.22);
+.release-banner__label {
   color: var(--red-bright);
   font-size: 0.76rem;
   font-weight: 900;
@@ -526,18 +527,13 @@ summary {
   text-transform: uppercase;
 }
 
-.playtest-banner strong {
+.release-banner strong {
   color: #fff;
   font-family: var(--display);
-  font-size: clamp(1.55rem, 2.5vw, 2.25rem);
+  font-size: clamp(1.15rem, 1.85vw, 1.7rem);
   letter-spacing: 0.035em;
-  line-height: 1;
+  line-height: 1.1;
   text-transform: uppercase;
-}
-
-.playtest-banner__meta {
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 0.76rem;
 }
 
 .hero__scroll {
@@ -978,11 +974,17 @@ summary {
 }
 
 .featured-video video,
+.featured-video iframe,
 .secondary-trailer video {
+  display: block;
   width: 100%;
   aspect-ratio: 16 / 9;
   background: #000;
   object-fit: contain;
+}
+
+.featured-video iframe {
+  border: 0;
 }
 
 .featured-video__meta {
@@ -1012,6 +1014,18 @@ summary {
 }
 
 .featured-video__index {
+  color: var(--red-bright);
+}
+
+.featured-video__permalink {
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, 0.72);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.featured-video__permalink:hover,
+.featured-video__permalink:focus-visible {
   color: var(--red-bright);
 }
 
@@ -1833,14 +1847,14 @@ summary {
     row-gap: 0.55rem;
   }
 
-  .playtest-banner {
+  .release-banner {
     grid-template-columns: 1fr;
-    gap: 0.35rem;
+    gap: 0.9rem;
     margin-top: 1.5rem;
     padding: 1.1rem 1rem 1.15rem;
   }
 
-  .playtest-banner strong {
+  .release-banner strong {
     font-family: "Arial Narrow Bold", "Arial Narrow", Arial, sans-serif;
     font-size: clamp(1.35rem, 7vw, 2rem);
     font-weight: 900;
@@ -1848,11 +1862,10 @@ summary {
     overflow-wrap: anywhere;
   }
 
-  .playtest-banner__label {
-    grid-row: auto;
-    padding: 0 0 0.45rem;
-    border-right: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+  .release-banner__item--full {
+    padding: 0.9rem 0 0;
+    border-left: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.22);
   }
 
   .hero__scroll {

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="FFFF: Fatal Five Finger Fillet is a first-person roguelite that turns Five Finger Fillet into a physical keyboard game. Coming to Windows PC on Steam in October 2026."
+      content="FFFF: Fatal Five Finger Fillet is a first-person roguelite that turns Five Finger Fillet into a physical keyboard game. Demo out September 30, 2026. Full release November 5, 2026 on Windows PC via Steam."
     >
     <meta name="theme-color" content="#050607">
     <title>FFFF: Fatal Five Finger Fillet — Official Site</title>
@@ -84,16 +84,19 @@
             <ul class="hero__facts" aria-label="Game summary">
               <li>Windows PC</li>
               <li>Single-player</li>
-              <li>October 2026</li>
+              <li>November 5, 2026</li>
             </ul>
 
-            <!-- PLAYTEST NOTICE START — delete this entire block when the playtest ends. -->
-            <aside class="playtest-banner" aria-label="Current Steam Playtest information">
-              <span class="playtest-banner__label">Free Steam Playtest</span>
-              <strong>Available until August 19, 2026</strong>
-              <span class="playtest-banner__meta">Approx. playtime: 20–40 minutes</span>
+            <aside class="release-banner" aria-label="Release schedule">
+              <div class="release-banner__item">
+                <span class="release-banner__label">Demo</span>
+                <strong>September 30, 2026</strong>
+              </div>
+              <div class="release-banner__item release-banner__item--full">
+                <span class="release-banner__label">Full release</span>
+                <strong>November 5, 2026</strong>
+              </div>
             </aside>
-            <!-- PLAYTEST NOTICE END -->
           </div>
         </div>
 
@@ -202,23 +205,23 @@
 
           <div class="featured-video" data-reveal>
             <div class="featured-video__frame">
-              <video
-                controls
-                playsinline
-                preload="metadata"
-                poster="./Assets/03_Screenshots/FFFF_Screenshot_01.jpg"
-                aria-label="Official FFFF gameplay trailer"
-              >
-                <source src="./Assets/05_Video/PV_Movie_01.mp4" type="video/mp4">
-                Your browser does not support the video element.
-              </video>
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/1EQ7aHp_PqQ?rel=0"
+                title="Official FFFF: Fatal Five Finger Fillet gameplay trailer"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
             <div class="featured-video__meta">
               <div>
                 <span class="featured-video__index">01 / 02</span>
                 <h3>Official gameplay trailer</h3>
               </div>
-              <span>00:30</span>
+              <a class="featured-video__permalink" href="https://youtu.be/1EQ7aHp_PqQ" target="_blank" rel="noopener noreferrer">
+                Watch on YouTube <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span>
+              </a>
             </div>
           </div>
 
@@ -358,7 +361,8 @@
             <h2 id="steam-title">Put your fingers on the keyboard. Don't lose them.</h2>
 
             <dl class="factsheet">
-              <div><dt>Release</dt><dd>October 2026</dd></div>
+              <div><dt>Demo</dt><dd>September 30, 2026</dd></div>
+              <div><dt>Release</dt><dd>November 5, 2026</dd></div>
               <div><dt>Platform</dt><dd>Windows PC (Steam)</dd></div>
               <div><dt>Players</dt><dd>Single-player</dd></div>
               <div><dt>Input</dt><dd>Physical keyboard required</dd></div>
