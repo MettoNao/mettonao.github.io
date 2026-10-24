@@ -56,7 +56,7 @@
 | パス | 仕様・内容 | サイトでの使用方針 |
 |---|---|---|
 | `Assets/05_Video/FFFFFirstTrailer .mp4` | 41.877秒、1920×1080、30fps、H.264/AAC。操作、丸ノコ、リング、アイテム、プレイ、ロゴ | 折りたたみ式のFirst Trailerとして使用。ファイル名の拡張子直前に半角スペースあり |
-| `Assets/05_Video/PV_Movie_01.mp4` | 29.717秒、1920×1080、29.97fps、H.264/AAC。操作、加点、アイテム選択、高スコア、ロゴ | 主トレーラーはYouTube埋め込み（<https://youtu.be/1EQ7aHp_PqQ>）に置き換えたため、現在サイト本体では未使用 |
+| `Assets/05_Video/PV_Movie_01.mp4` | 29.717秒、1920×1080、29.97fps、H.264/AAC。操作、加点、アイテム選択、高スコア、ロゴ | 主トレーラーはYouTube埋め込み（<https://youtu.be/2_ezYbLEKUg>）に置き換えたため、現在サイト本体では未使用 |
 
 両MP4は全編デコード正常、Web配信向けfast-start、ブラウザ互換性の高いH.264/AAC。字幕トラックはない。音付き自動再生は行わず、`controls`、`playsinline`、`poster` を指定した。
 
