@@ -12,20 +12,19 @@ Genman Games
 Platform
 Windows PC (Steam)
 
-Demo
-September 30, 2026
-
 Release
-November 5, 2026
+December 14, 2026
 
 Genre
-Roguelike,Horror
+Roguelite, Horror
 
 Players
 Single-player
 
 Input
-Physical keyboard required
+This game supports standard keyboards only.
+This includes tenkeyless (TKL) keyboards and keyboard layouts for the game's supported languages.
+However, the game may not work properly with certain setups, such as region-specific layouts or split keyboards.
 
 Price
 TBA
@@ -36,6 +35,9 @@ genman.game@gmail.com
 Steam
 https://store.steampowered.com/app/2905730
 
+Steam Demo
+https://store.steampowered.com/app/4809430
+
 X
 https://x.com/GENMAN0731700
 
@@ -45,31 +47,21 @@ https://discord.gg/FNDWWy5d8W
 Trailer
 https://genman-games.com/trailer
 
-
 ## TAGLINE
-Put your fingers on the keyboard.
-Don't lose them.
-
+Balatro meets Five Finger Fillet in a horror roguelite. Place your fingers on the keyboard and stab the knife between them.
 
 ## SHORT DESCRIPTION
-FFFF: Fatal Five Finger Fillet is a first-person roguelite that turns Five Finger Fillet into a physical keyboard game. 
-Players place four real fingers on the keyboard and stab between them with an on-screen knife, then build scoring combinations with rings and items.
-
+Bet your own fingers in a horror roguelite that plays like Balatro meets Five Finger Fillet. Place your own fingers on the keyboard. Your fingers are your life points. Carefully but quickly, keep stabbing the knife between your fingers. Collect rings and Stab Items, build combos, and reach the target score before you bleed out.
 
 ## LONG DESCRIPTION
-FFFF: Fatal Five Finger Fillet is a first-person roguelite built around a physical keyboard version of Five Finger Fillet. Players place four fingers directly on the keyboard, where they correspond to the fingers of the in-game hand, and move an on-screen knife between them to build their score.
-The challenge is balancing speed against accuracy. Losing fingers reduces the player's margin for error, while an approaching rotating blade creates additional time pressure. Rings and items modify scoring and can be combined to create different strategies and high-scoring runs.
-The result is a score-driven roguelite built around the tension between the virtual knife on screen and the player's real fingers resting on the keyboard.
-
+Bet your own fingers. FFFF is a horror roguelite that plays like Balatro meets Five Finger Fillet. Invited to a dangerous game, you find your arm restrained. A mysterious woman controlling finger puppets forces you to play a game with your life at stake. Survive the spinning blade, defeat her, and escape.
+Place four fingers on the keyboard. Those fingers are your life points. Lose them all and you'll bleed to death. Game over. Carefully but quickly, keep stabbing the knife between your fingers. Collect rings and Stab Items, choose your combinations strategically, and build powerful synergies as you chase a high score.
+Five fingers. Five bosses. Defeat the maniacal finger puppets one by one and gradually uncover the darkness deep within the woman controlling them.
 
 ## KEY FEATURES
-- PHYSICAL FOUR-FINGER CONTROLS
-Place four real fingers on your keyboard, where they become your in-game fingers — and your lives.
-
-- FIVE FINGER FILLET IN FIRST PERSON
-Control an on-screen knife between your fingers, balancing speed and accuracy as the pressure builds.
-- ROGUELITE BUILDS
-Collect rings and items, combine their effects, and build synergies that change how you chase higher scores.
-
-- EVERY FINGER COUNTS
-Mistakes can cost you a finger during a run, forcing you to keep playing with fewer lives remaining.
+- Place your fingers on the keyboard and stab the knife between them. Immersion so intense, you might just lose a finger yourself.
+- The tension of the spinning blade closing in
+- The satisfying rush of chaining combos with rings and items
+- A different experience every run, with varied builds and endless synergies
+- A cast of eerie, twisted characters that are a little cute
+- An eerie death-game atmosphere

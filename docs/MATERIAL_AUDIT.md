@@ -1,6 +1,7 @@
 # FFFF 公式サイト 素材調査
 
 調査日: 2026-08-13  
+事実情報更新日: 2026-10-27（Googleドライブ `00_Info/FFFF_Press_Info_English.txt` の内容に更新）  
 事実情報の正本: `Contents/FFFF_Press_Info_EN.txt`
 
 指定された `Content/`、`content/press-info.txt`、`assets/`、`references/` は実在せず、実際のディレクトリ名は `Contents/` と `Assets/` だった。`references/` に相当する別資料はない。以下は実在する全素材を目視・メタデータ確認した結果。
@@ -65,25 +66,27 @@
 - 正式タイトル: `FFFF: Fatal Five Finger Fillet`
 - Developer / Publisher: `Genman Games`
 - Platform: `Windows PC (Steam)`
-- Demo: `September 30, 2026`
-- Release: `November 5, 2026`
-- Genre: `Roguelike,Horror`
+- Release: `December 14, 2026`
+- Genre: `Roguelite, Horror`
 - Players: `Single-player`
-- Input: `Physical keyboard required`
+- Input: 標準キーボードのみ対応。テンキーレス（TKL）および対応言語のキーボード配列を含む。地域固有の配列や分割キーボードなど一部の構成では正常に動作しない場合がある
 - Price: `TBA`
 - Steam: <https://store.steampowered.com/app/2905730>
+- Steam Demo: <https://store.steampowered.com/app/4809430>
 - X: <https://x.com/GENMAN0731700>
 - Discord: <https://discord.gg/FNDWWy5d8W>
+- Trailer: <https://genman-games.com/trailer>（YouTubeへの転送ページ。2026-10-27時点のドライブ資料からは誤って欠落）
 - Email: <genman.game@gmail.com>
 - Press Kit（ユーザー指定の配布先）: <https://drive.google.com/drive/u/0/folders/11Gg4CQXR4QYR6BFq9qX-Zm8r5zES4rhz>
-- 一人称視点のrogueliteで、Five Finger Filletを物理キーボード操作にしたゲーム
-- 4本の実際の指をキーボードに置き、ゲーム内の指と対応させる
-- 画面上のナイフを指の間に動かし、速さと正確さを両立してスコアを伸ばす
-- 4本の指はプレイヤーの命であり、ミスで指を失うと許容できるミスが減る
-- 接近する回転刃が時間的プレッシャーを加える
-- リングとアイテムがスコアリングを変化させ、組み合わせとシナジーで異なる戦略を作る
+- タグライン: 「Balatro meets Five Finger Fillet」のホラーローグライト。キーボードに指を置き、その間にナイフを突き立てる
+- 4本の指をキーボードに置く。その指がライフポイントで、すべて失うと失血死してゲームオーバー
+- 慎重かつ素早く、指の間にナイフを突き立て続ける。迫る回転刃が緊張感を加える
+- リングとStab Itemsを集め、組み合わせを戦略的に選んでシナジーを作り、目標スコアを目指す
+- ストーリー: 危険なゲームに招かれ腕を拘束された主人公が、指人形を操る謎の女に命懸けのゲームを強いられる。回転刃を生き延び、女を倒して脱出する
+- 5本の指、5体のボス。狂気の指人形を一体ずつ倒し、それらを操る女の奥底に潜む闇を明らかにしていく
+- Key Features: 没入感、迫る回転刃の緊張感、リングとアイテムによるコンボ、毎回異なるビルドとシナジー、不気味で少しかわいいキャラクター、デスゲームの雰囲気
 
-Steamページは補助資料として照合した。Steam上では発売時期が `Q4 2026`、タイトル、X URL、ジャンル分類（Action / Casual / Indie）にもローカル資料との相違があったため、サイトではAGENTS.mdに従って上記ローカル資料の表記を優先した。Steamだけに記載されているボス数、比較対象、言語、PC要件等はサイト本文へ追加していない。
+Steamページは補助資料として照合した。Steam上では発売時期が `Q4 2026`、タイトル、X URL、ジャンル分類（Action / Casual / Indie）にもローカル資料との相違があったため、サイトではAGENTS.mdに従って上記ローカル資料の表記を優先した。Steamだけに記載されている言語、PC要件等はサイト本文へ追加していない（ボス数とBalatroとの比較は2026-10-27更新の資料に記載されたため本文に反映）。
 
 ## 5. 不足・未確定情報
 

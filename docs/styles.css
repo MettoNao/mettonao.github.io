@@ -536,6 +536,20 @@ summary {
   text-transform: uppercase;
 }
 
+.release-banner strong span {
+  display: inline;
+}
+
+a.release-banner__item {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.release-banner__item:hover strong,
+a.release-banner__item:focus-visible strong {
+  color: var(--red-bright);
+}
+
 .hero__scroll {
   position: absolute;
   bottom: 1.65rem;
@@ -923,6 +937,61 @@ summary {
   color: rgba(5, 6, 7, 0.62);
   font-size: 0.94rem;
   line-height: 1.7;
+}
+
+.story {
+  overflow: hidden;
+}
+
+.story__copy {
+  max-width: 35rem;
+  padding-left: 1.3rem;
+  border-left: 3px solid var(--red);
+}
+
+.story__copy p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: clamp(1.02rem, 1.5vw, 1.18rem);
+  line-height: 1.7;
+}
+
+.story__copy p + p {
+  margin-top: 1rem;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line-light);
+  border-left: 1px solid var(--line-light);
+  list-style: none;
+}
+
+.feature-list li {
+  display: grid;
+  grid-template-columns: 2.6rem 1fr;
+  gap: 0.9rem;
+  min-width: 0;
+  padding: 1.5rem 1.4rem;
+  border-right: 1px solid var(--line-light);
+  border-bottom: 1px solid var(--line-light);
+}
+
+.feature-list span {
+  color: var(--red-bright);
+  font-family: var(--display);
+  font-size: 1.45rem;
+  line-height: 1;
+}
+
+.feature-list p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.94rem;
+  line-height: 1.6;
 }
 
 .trailer {
@@ -1343,6 +1412,21 @@ summary {
   font-weight: 700;
 }
 
+.factsheet__wide {
+  grid-column: 1 / -1;
+}
+
+.factsheet__wide dd {
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.steam__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
 .site-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.14);
   background: #020303;
@@ -1685,6 +1769,10 @@ summary {
     gap: 2rem;
   }
 
+  .feature-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .section-heading__lead {
     max-width: 44rem;
   }
@@ -1751,6 +1839,10 @@ summary {
 
   .how-list li {
     grid-template-columns: 3.2rem 1fr;
+  }
+
+  .feature-list {
+    grid-template-columns: 1fr;
   }
 
   .gallery__grid {
